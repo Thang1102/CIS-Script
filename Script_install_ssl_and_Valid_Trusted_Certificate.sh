@@ -13,8 +13,8 @@ echo "
     ServerName thangblog274.tk
     DocumentRoot /var/www/html
     ServerAlias www.thangblog274.tk
-    ErrorLog /opt/log/httpderror_apache.log
-    CustomLog /opt/log/httpdrequests.log combined
+    ErrorLog /var/log/httpderror_apache.log
+    CustomLog /var/log/httpdrequests.log combined
 </VirtualHost>
 " >> thangblog274.tk.conf
 echo "Manual install Certificate use file Setup_LetsEncrypt"
