@@ -1,6 +1,5 @@
 #!/bin/bash
 sudo yum install epel-release -y
-sudo yum install certbot python2-certbot-apache mod_ssl -y
 cd /etc/httpd/conf.d/
 touch thangblog274.tk.conf
 echo "
