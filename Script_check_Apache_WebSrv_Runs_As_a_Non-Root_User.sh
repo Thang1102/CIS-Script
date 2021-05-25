@@ -1,6 +1,6 @@
    #!/bin/bash 
     cd ~
-    echo "1. Ensure  the User  and Group directives are present in the Apache configuration and not commented out" > Check/check_WebSrv_run_as_none_root.txt
+    echo "1. Ensure  the User  and Group directives are present in the Apache configuration and not commented out" >> Check/check_WebSrv_run_as_none_root.txt
     grep -i '^User' /etc/httpd/conf/httpd.conf >> Check/check_WebSrv_run_as_none_root.txt
     grep -i '^group' /etc/httpd/conf/httpd.conf >> Check/check_WebSrv_run_as_none_root.txt
     echo "2. Ensure the Apache  account UID is  correct" >> Check/check_WebSrv_run_as_none_root.txt
