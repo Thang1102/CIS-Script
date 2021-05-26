@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo yum install epel-release -y
+yum install epel-release -y
 cd /etc/httpd/conf.d/
 touch blogctf.tk.conf
 echo "
